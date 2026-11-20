@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: pislia-tytriv
+    runtime: node
+    plan: free
+    buildCommand: npm --prefix frontend ci --include=dev && npm --prefix frontend run build && npm --prefix backend ci --omit=dev
+    startCommand: npm --prefix backend start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: MONGO_URI
+        sync: false

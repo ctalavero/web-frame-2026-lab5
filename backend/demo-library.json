@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": "film",
+      "name": "Фільми"
+    },
+    {
+      "id": "tv",
+      "name": "Серіали"
+    },
+    {
+      "id": "animation",
+      "name": "Анімація"
+    },
+    {
+      "id": "doc",
+      "name": "Документальні"
+    }
+  ],
+  "entries": [
+    {
+      "id": "demo-1",
+      "title": "Червоний горизонт",
+      "category": "film",
+      "year": "2025",
+      "status": "watched",
+      "tier": "S",
+      "score": 10,
+      "review": "Історія розкривається повільно, зате останні десять хвилин хочеться відразу передивитися.",
+      "poster": "/art/red-horizon.webp"
+    },
+    {
+      "id": "demo-2",
+      "title": "Після дощу",
+      "category": "tv",
+      "year": "2024",
+      "status": "watched",
+      "tier": "A",
+      "score": 9,
+      "review": "Сильні діалоги й тиха напруга. Найкраще працює серія про сусідів.",
+      "watchedEpisodes": 6,
+      "totalEpisodes": 6,
+      "poster": "/art/after-rain.webp"
+    },
+    {
+      "id": "demo-3",
+      "title": "Міст 04:17",
+      "category": "film",
+      "year": "2023",
+      "status": "watched",
+      "tier": "B",
+      "score": 7,
+      "review": "Нічне місто вдалося краще за розв’язку.",
+      "poster": "/art/bridge.webp"
+    },
+    {
+      "id": "demo-4",
+      "title": "Північний маршрут",
+      "category": "doc",
+      "year": "2025",
+      "status": "watching",
+      "tier": "",
+      "score": null,
+      "review": "Перший епізод уже переглянуто.",
+      "watchedEpisodes": 1,
+      "totalEpisodes": 4,
+      "poster": "/art/north.webp"
+    },
+    {
+      "id": "demo-5",
+      "title": "Паперове місто",
+      "category": "animation",
+      "year": "2024",
+      "status": "watched",
+      "tier": "S",
+      "score": 9,
+      "review": "Дуже жива анімація. Сподобалось, як місто передає настрій героїні.",
+      "poster": "/art/paper.webp"
+    },
+    {
+      "id": "demo-6",
+      "title": "Останній потяг",
+      "category": "film",
+      "year": "2025",
+      "status": "planned",
+      "tier": "",
+      "score": null,
+      "review": "",
+      "poster": "/art/train.webp"
+    }
+  ]
+}
